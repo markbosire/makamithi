@@ -1,9 +1,9 @@
 <?php
-require './config/env.php';
-$servername = DB_SERVER;
-$username = DB_USERNAME;
-$password = DB_PASSWORD;
-$dbname = DB_NAME;
+require '../config/env.php';
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'makamithi_vetcare';
 
 // Create connection to MySQL
 $conn = new mysqli($servername, $username, $password);
